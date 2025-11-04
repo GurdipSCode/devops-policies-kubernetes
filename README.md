@@ -1,4 +1,4 @@
-# Kyverno Policies
+# devops-policies-kyverno
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Kyverno](https://img.shields.io/badge/Kyverno-v1.10+-green.svg)](https://kyverno.io/)
