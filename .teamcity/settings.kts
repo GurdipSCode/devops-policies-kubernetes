@@ -1,5 +1,4 @@
 import jetbrains.buildServer.configs.kotlin.*
-import jetbrains.buildServer.configs.kotlin.buildSteps.nodeJS
 import jetbrains.buildServer.configs.kotlin.buildSteps.powerShell
 import jetbrains.buildServer.configs.kotlin.buildSteps.script
 import jetbrains.buildServer.configs.kotlin.vcs.GitVcsRoot
@@ -43,10 +42,6 @@ object Build : BuildType({
     }
 
     steps {
-        nodeJS {
-            id = "nodejs_runner"
-            shellScript = "npm ci"
-        }
         powerShell {
             name = "Run yamllint"
             id = "Run_yamllint"
